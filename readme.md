@@ -12,17 +12,20 @@ Using [vim-plug](https://github.com/junegunn/vim-plug)
 
 ```viml
 Plug 'koenverburg/cmd-palette.nvim'
+Plug 'stevearc/dressing.nvim' # add the dressing plugin for a nicer looking ui as shown in the demo video
 ```
 
 Using [dein](https://github.com/Shougo/dein.vim)
 
 ```viml
 call dein#add('koenverburg/cmd-palette.nvim')
+call dein#add('stevearc/dressing.nvim') # add the dressing plugin for a nicer looking ui as shown in the demo video
 ```
 Using [packer.nvim](https://github.com/wbthomason/packer.nvim)
 
 ```lua
 use 'koenverburg/cmd-palette.nvim'
+use 'stevearc/dressing.nvim' -- add the dressing plugin for a nicer looking ui as shown in the demo video
 ```
 
 ## Setup
