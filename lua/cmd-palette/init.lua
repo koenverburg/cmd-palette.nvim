@@ -27,15 +27,11 @@ function M.setup(commands)
 end
 
 function M.show()
-  if vim.ui.select then
-    vim.ui.select(M.commands, {
-      kind = nil,
-      format_item = format,
-      prompt = "Command Palette",
-    }, callback)
-  else
-    print "Could't find vim.ui.select"
-  end
+  vim.ui.select(M.commands, {
+    kind = nil,
+    format_item = format,
+    prompt = "Command Palette",
+  }, callback)
 end
 
 return M
